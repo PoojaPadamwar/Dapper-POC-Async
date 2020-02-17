@@ -32,4 +32,7 @@ GO
 # Insert data into table
 insert into Employee (FirstName, LastName, DateOfBirth) values ('Pooja', 'Padamwar',xx-xx-xxxx);
 
- 
+# Test the API
+http://localhost:58255/api/Employee
+http://localhost:58255/api/Employee/2
+http://localhost:58255/api/Employee/xx-xx-xxxx

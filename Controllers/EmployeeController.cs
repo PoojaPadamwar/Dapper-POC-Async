@@ -35,7 +35,7 @@ namespace DapperInAsyncWay.Controllers
 
         [HttpGet]
         [Route("dob/{dateOfBirth}")]
-        public async Task<ActionResult<List<Employee>>> GetByID(DateTime dateOfBirth)
+        public async Task<ActionResult<List<Employee>>> GetByDateOFBirth(DateTime dateOfBirth)
         {
             return await _employeeRepo.GetByDateOfBirth(dateOfBirth);
         }
